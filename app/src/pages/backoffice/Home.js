@@ -1,6 +1,9 @@
+import BackOffice from "../../components/BackOffice";
+
 function Home() {
-    return <>
-    </>
+    return <BackOffice>
+
+    </BackOffice>
 }
 
 export default Home;
