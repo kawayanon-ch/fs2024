@@ -42,7 +42,7 @@ function SignIn() {
                 <div class="card-body login-card-body">
                     <p class="login-box-msg">Sign in to start your session</p>
 
-                    <form action="../../index3.html" method="post">
+                    <div>
                         <div class="input-group mb-3">
                             <input 
                                 class="form-control" 
@@ -78,10 +78,15 @@ function SignIn() {
                                 </div>
                             </div>
                             <div class="col-4">
-                                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                                <button 
+                                    class="btn btn-primary btn-block"
+                                    onClick={handleSignIn}
+                                >
+                                    Sign In
+                                </button>
                             </div>
                         </div>
-                    </form>
+                    </div>
 
                     <div class="social-auth-links text-center mb-3">
                         <p>- OR -</p>
